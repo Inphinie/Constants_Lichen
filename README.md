@@ -42,27 +42,6 @@ Le moteur repose sur des équations décrites dans le document [FORMULAS.md](./F
 
 > Le système intègre des principes de géométrie sacrée et de physique unifiée, utilisant le **Nombre d'Or ($\phi$)** comme ratio d'échelle fondamental pour l'organisation de la matière.
 
-## 🛠️ Usage
-
-### Python (Definitions)
-```python
-from fundamental_constants import PLANCK_CONSTANT, GOLDEN_RATIO
-
-print(f"L'univers tourne sur un ratio de {GOLDEN_RATIO}")
-
-```
-
-### Rust (Simulation)
-
-```rust
-let atom_a = UniversalAtom::new(mass, charge, position_a);
-let atom_b = UniversalAtom::new(mass, charge, position_b);
-
-// Calcul de l'interaction
-let force = atom_a.interact(&atom_b);
-
-```
-
 ---
 
 *Ce module est une composante critique du Lichen Universe Unified.*
